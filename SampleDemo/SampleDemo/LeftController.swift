@@ -8,11 +8,20 @@
 
 import UIKit
 
-class LeftController: UIViewController {
-
+class LeftController: BaseViewController {
+    
+    let data:[[String:Any]] = [
+        
+    ]
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.red
+        view.backgroundColor = UIColor.white
     }
-
+    lazy var tableView:UITableView = {
+        let tv = UITableView.init(frame: .zero, style: .plain)
+        return tv
+    }()
+    override func initView() {
+        
+    }
 }
