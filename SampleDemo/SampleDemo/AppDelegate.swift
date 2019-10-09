@@ -29,12 +29,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let leftVC = LeftController()
         
         let mainVC = BaseViewController()
+
         let vc = SWRevealViewController.init(rearViewController: leftVC, frontViewController: mainVC)
-        vc?.rearViewRevealWidth = 230
+        vc?.rearViewRevealWidth = window.qmui_width*0.8
         vc?.setFrontViewPosition(.left, animated: true)
         window.rootViewController = vc
         
-        
+
         self.window = window
         self.window?.makeKeyAndVisible()
         
