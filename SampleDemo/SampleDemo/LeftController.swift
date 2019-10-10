@@ -13,7 +13,7 @@ class LeftController: BaseViewController {
     
     let datas:[[String:Any]] = [
         ["下拉头部变大":Demo01Controller()],
-         ["1111":Demo01Controller()],
+         ["1111":Demo02Controller()],
          ["22222":Demo01Controller()]
     ]
     override func viewDidLoad() {
@@ -46,14 +46,17 @@ extension LeftController:UITableViewDataSource,UITableViewDelegate {
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        //let data = datas[indexPath.row]
+        let data = datas[indexPath.row]
+        
+        
         var desVc:UIViewController?
-        switch indexPath.row {
-        case 0:
-            desVc = Demo01Controller()
-        default:
-            break
-        }
+        desVc = data.values.first as? UIViewController
+//        switch indexPath.row {
+//        case 0:
+//            desVc = Demo01Controller()
+//        default:
+//            break
+//        }
         if let vc = desVc , let resVc = self.revealViewController(){
             resVc.pushFrontViewController(vc, animated: true)
         }

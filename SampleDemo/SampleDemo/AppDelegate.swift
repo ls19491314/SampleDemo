@@ -11,8 +11,9 @@ import UIKit
 @_exported import QMUIKit
 @_exported import SWRevealViewController
 
+
 #if DEBUG
-    import CocoaDebug
+    import DoraemonKit
 #endif
 
 @UIApplicationMain
@@ -40,15 +41,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.makeKeyAndVisible()
         
        #if DEBUG
-            CocoaDebug.enable()
-        #endif
+              DoraemonManager.shareInstance().install()
+          #endif
         return true
     }
-    public func print<T>(file: String = #file, function: String = #function, line: Int = #line, _ message: T, color: UIColor = .white) {
-        #if DEBUG
-            swiftLog(file, function, line, message, color, false)
-        #endif
-    }
+//    public func print<T>(file: String = #file, function: String = #function, line: Int = #line, _ message: T, color: UIColor = .white) {
+//        #if DEBUG
+//            swiftLog(file, function, line, message, color, false)
+//        #endif
+//    }
    
 
 

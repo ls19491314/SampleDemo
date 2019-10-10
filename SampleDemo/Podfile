@@ -8,8 +8,8 @@ target 'SampleDemo' do
   # Pods for SampleDemo
    pod 'SnapKit'
   pod 'QMUIKit'
-  pod 'CocoaDebug', :configurations => ['Debug']
+#  pod 'CocoaDebug', :configurations => ['Debug']
   pod 'SnapKit'
   pod 'SWRevealViewController'
-
+  pod 'DoraemonKit/Core', '~> 1.2.3', :configurations => ['Debug'] 
 end
