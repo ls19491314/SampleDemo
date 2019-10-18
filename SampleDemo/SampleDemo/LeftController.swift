@@ -14,7 +14,7 @@ class LeftController: BaseViewController {
     let datas:[[String:Any]] = [
         ["下拉头部变大":Demo01Controller()],
          ["1111":Demo02Controller()],
-         ["22222":Demo01Controller()]
+         ["22222":Demo03Controller()]
     ]
     override func viewDidLoad() {
         super.viewDidLoad()
