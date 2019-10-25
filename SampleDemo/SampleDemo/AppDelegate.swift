@@ -29,7 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let leftVC = LeftController()
         
-        let mainVC = BaseViewController()
+        let mainVC = MainViewController()
 
         let vc = SWRevealViewController.init(rearViewController: leftVC, frontViewController: mainVC)
         vc?.rearViewRevealWidth = window.qmui_width*0.8
