@@ -27,15 +27,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
        let window = UIWindow(frame: UIScreen.main.bounds)
         
-        let leftVC = LeftController()
-        
-        let mainVC = MainViewController()
+       func demo_01() {
+             let leftVC = LeftController()
+             
+             let mainVC = CollectionDemoView()
 
-        let vc = SWRevealViewController.init(rearViewController: leftVC, frontViewController: mainVC)
-        vc?.rearViewRevealWidth = window.qmui_width*0.8
-        vc?.setFrontViewPosition(.left, animated: true)
-        window.rootViewController = vc
-        
+             let vc = SWRevealViewController.init(rearViewController: leftVC, frontViewController: mainVC)
+             vc?.rearViewRevealWidth = window.qmui_width*0.8
+             vc?.setFrontViewPosition(.left, animated: true)
+            window.rootViewController = vc
+        }
+       
+        func demo_02() {
+            
+            
+            let tabbar = TabBarCOntroller()
+            
+            window.rootViewController = tabbar
+        }
+      
+        demo_02()
 
         self.window = window
         self.window?.makeKeyAndVisible()

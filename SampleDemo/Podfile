@@ -12,5 +12,7 @@ target 'SampleDemo' do
   pod 'SnapKit'
   pod 'SWRevealViewController'
   pod 'Cards'
-  pod 'DoraemonKit/Core', '~> 1.2.3', :configurations => ['Debug'] 
+  pod 'DoraemonKit/Core', '~> 1.2.3', :configurations => ['Debug']
+  pod 'RAMAnimatedTabBarController'
+  
 end

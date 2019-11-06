@@ -11,12 +11,14 @@
 		91455F5323634CB700147824 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91455F5223634CB700147824 /* MainViewController.swift */; };
 		C400133C2359C81500BA2FFB /* Demo03Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400133B2359C81500BA2FFB /* Demo03Controller.swift */; };
 		C449FCC0234F462800B6D045 /* Demo02Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C449FCBF234F462800B6D045 /* Demo02Controller.swift */; };
+		C491C46D23671E920089330E /* CollectionDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C491C46C23671E920089330E /* CollectionDemoView.swift */; };
 		C4B95FD0234DE2B800E8F45A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B95FCF234DE2B800E8F45A /* AppDelegate.swift */; };
 		C4B95FD4234DE2B800E8F45A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B95FD3234DE2B800E8F45A /* BaseViewController.swift */; };
 		C4B95FD9234DE2B900E8F45A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4B95FD8234DE2B900E8F45A /* Assets.xcassets */; };
 		C4B95FDC234DE2B900E8F45A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4B95FDA234DE2B900E8F45A /* LaunchScreen.storyboard */; };
 		C4B95FE5234DED0100E8F45A /* LeftController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B95FE4234DED0100E8F45A /* LeftController.swift */; };
 		C4B95FE7234DEE9F00E8F45A /* Demo01Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B95FE6234DEE9F00E8F45A /* Demo01Controller.swift */; };
+		C4D56A9423726FAD007C7DDB /* TabBarCOntroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D56A9323726FAD007C7DDB /* TabBarCOntroller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,7 @@
 		BAE9BF6D0525F53549EFB7BC /* Pods-SampleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleDemo.debug.xcconfig"; path = "Target Support Files/Pods-SampleDemo/Pods-SampleDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C400133B2359C81500BA2FFB /* Demo03Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo03Controller.swift; sourceTree = "<group>"; };
 		C449FCBF234F462800B6D045 /* Demo02Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo02Controller.swift; sourceTree = "<group>"; };
+		C491C46C23671E920089330E /* CollectionDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDemoView.swift; sourceTree = "<group>"; };
 		C4B95FCC234DE2B800E8F45A /* SampleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B95FCF234DE2B800E8F45A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4B95FD3234DE2B800E8F45A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -33,6 +36,7 @@
 		C4B95FDD234DE2B900E8F45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4B95FE4234DED0100E8F45A /* LeftController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftController.swift; sourceTree = "<group>"; };
 		C4B95FE6234DEE9F00E8F45A /* Demo01Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo01Controller.swift; sourceTree = "<group>"; };
+		C4D56A9323726FAD007C7DDB /* TabBarCOntroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCOntroller.swift; sourceTree = "<group>"; };
 		D966CA8F8D362D7BFCDFF91D /* Pods-SampleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleDemo.release.xcconfig"; path = "Target Support Files/Pods-SampleDemo/Pods-SampleDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,15 +106,11 @@
 		C4B95FCE234DE2B800E8F45A /* SampleDemo */ = {
 			isa = PBXGroup;
 			children = (
-				C400133A2359C7FC00BA2FFB /* Demo_03 */,
-				C449FCBE234F455600B6D045 /* Demo_02 */,
-				C4B95FE3234DECE300E8F45A /* Demo_01 */,
+				C4D56A9223726C31007C7DDB /* 02 */,
+				C4D56A9123726C17007C7DDB /* 01 */,
 				C4B95FCF234DE2B800E8F45A /* AppDelegate.swift */,
-				91455F5223634CB700147824 /* MainViewController.swift */,
 				C4B95FD8234DE2B900E8F45A /* Assets.xcassets */,
-				C4B95FE4234DED0100E8F45A /* LeftController.swift */,
 				C4B95FDA234DE2B900E8F45A /* LaunchScreen.storyboard */,
-				C4B95FD3234DE2B800E8F45A /* BaseViewController.swift */,
 				C4B95FDD234DE2B900E8F45A /* Info.plist */,
 			);
 			path = SampleDemo;
@@ -122,6 +122,28 @@
 				C4B95FE6234DEE9F00E8F45A /* Demo01Controller.swift */,
 			);
 			path = Demo_01;
+			sourceTree = "<group>";
+		};
+		C4D56A9123726C17007C7DDB /* 01 */ = {
+			isa = PBXGroup;
+			children = (
+				C4B95FE4234DED0100E8F45A /* LeftController.swift */,
+				C491C46C23671E920089330E /* CollectionDemoView.swift */,
+				C4B95FD3234DE2B800E8F45A /* BaseViewController.swift */,
+				91455F5223634CB700147824 /* MainViewController.swift */,
+				C400133A2359C7FC00BA2FFB /* Demo_03 */,
+				C449FCBE234F455600B6D045 /* Demo_02 */,
+				C4B95FE3234DECE300E8F45A /* Demo_01 */,
+			);
+			path = 01;
+			sourceTree = "<group>";
+		};
+		C4D56A9223726C31007C7DDB /* 02 */ = {
+			isa = PBXGroup;
+			children = (
+				C4D56A9323726FAD007C7DDB /* TabBarCOntroller.swift */,
+			);
+			path = 02;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,10 +263,12 @@
 				91455F5323634CB700147824 /* MainViewController.swift in Sources */,
 				C4B95FD4234DE2B800E8F45A /* BaseViewController.swift in Sources */,
 				C449FCC0234F462800B6D045 /* Demo02Controller.swift in Sources */,
+				C4D56A9423726FAD007C7DDB /* TabBarCOntroller.swift in Sources */,
 				C4B95FD0234DE2B800E8F45A /* AppDelegate.swift in Sources */,
 				C4B95FE5234DED0100E8F45A /* LeftController.swift in Sources */,
 				C4B95FE7234DEE9F00E8F45A /* Demo01Controller.swift in Sources */,
 				C400133C2359C81500BA2FFB /* Demo03Controller.swift in Sources */,
+				C491C46D23671E920089330E /* CollectionDemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
