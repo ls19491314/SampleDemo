@@ -13,6 +13,6 @@ target 'SampleDemo' do
   pod 'SWRevealViewController'
   pod 'Cards'
   pod 'DoraemonKit/Core', '~> 1.2.3', :configurations => ['Debug']
-  pod 'RAMAnimatedTabBarController'
+  pod 'RAMAnimatedTabBarController','5.0.1'
   
 end

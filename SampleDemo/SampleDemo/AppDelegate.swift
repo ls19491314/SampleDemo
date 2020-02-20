@@ -38,15 +38,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             window.rootViewController = vc
         }
        
-        func demo_02() {
-            
-            
-            let tabbar = TabBarCOntroller()
-            
-            window.rootViewController = tabbar
-        }
+//        func demo_02() {
+//
+//
+//            let tabbar = TabBarCOntroller()
+//
+//            window.rootViewController = tabbar
+//        }
       
-        demo_02()
+        demo_01()
 
         self.window = window
         self.window?.makeKeyAndVisible()
